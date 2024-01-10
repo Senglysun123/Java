@@ -14,10 +14,8 @@ public class Assignment {
         int month = Integer.parseInt(dateParts[1]);
         int day = Integer.parseInt(dateParts[2]);
 
-        // Convert month number to month name
         String monthName = new DateFormatSymbols().getMonths()[month - 1];
 
-        // Display the full date representation
         String fullDate = monthName + " " + day + ", " + year;
         System.out.println("Full date: " + fullDate);
 
